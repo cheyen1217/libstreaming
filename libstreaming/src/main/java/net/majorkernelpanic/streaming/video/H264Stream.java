@@ -116,7 +116,7 @@ public class H264Stream extends VideoStream {
 		if (mMode != MODE_MEDIARECORDER_API) return testMediaCodecAPI();
 		else return testMediaRecorderAPI();
 	}
-//2
+//
 	@SuppressLint("NewApi")
 	private MP4Config testMediaCodecAPI() throws RuntimeException, IOException {
 		createCamera();
